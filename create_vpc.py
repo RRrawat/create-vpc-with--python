@@ -1,10 +1,8 @@
 """
-
 Create an AWS VPC.
 
 Python Version: 3.7.0
 Boto3 Version: 1.7.50
-
 """
 
 import boto3
@@ -41,7 +39,7 @@ class Tag():
 
 def create_vpc(ec2, cidr, name):
   """
-  Create a VPC
+  ###Create a VPC
   """
 
   # Create the VPC
